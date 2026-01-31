@@ -1,2 +1,2 @@
 # yim_website
-test
+test.
