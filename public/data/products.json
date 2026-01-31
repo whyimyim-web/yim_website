@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Object 01",
+      "badge": "Limited",
+      "price": "₩120,000"
+    },
+    {
+      "id": 2,
+      "name": "Object 02",
+      "badge": "Limited",
+      "price": "₩120,000"
+    },
+    {
+      "id": 3,
+      "name": "Object 03",
+      "badge": "Limited",
+      "price": "₩120,000"
+    }
+  ]
+}
