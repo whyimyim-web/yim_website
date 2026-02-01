@@ -83,21 +83,27 @@ onMounted(async () => {
   width: 100%;
 }
 
+.object-image {
+  aspect-ratio: 1 / 1;
+}
+
 /* Swiper Navigation (이전/다음 버튼) 스타일 */
 :deep(.swiper-button-next),
 :deep(.swiper-button-prev) {
-  color: var(--text);
-  width: 40px;
-  height: 40px;
+  color: white;
+  width: 28px;
+  height: 28px;
+  top: 43%;
+  transform: translateY(-50%);
 }
 
 :deep(.swiper-button-next:after),
 :deep(.swiper-button-prev:after) {
-  font-size: 18px;
+  font-size: 14px;
 }
 
 :deep(.swiper-button-next:hover),
 :deep(.swiper-button-prev:hover) {
-  color: var(--point);
+  color: white;
 }
 </style>

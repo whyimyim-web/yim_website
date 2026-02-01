@@ -208,7 +208,7 @@ h2.section-title {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 320px;
+  aspect-ratio: 1 / 1;
   border-radius: 28px;
   transition: transform 0.6s ease;
 }
@@ -258,7 +258,7 @@ h2.section-title {
 
 .concept-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.1fr 0.9fr;
   gap: 120px;
   align-items: center;
 }
@@ -275,7 +275,7 @@ h2.section-title {
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 32px;
-  height: 460px;
+  height: 520px;
 }
 
 /* Atelier */
@@ -292,7 +292,9 @@ h2.section-title {
 }
 
 .atelier-gallery {
-  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 }
 
 .atelier-img {
@@ -300,7 +302,6 @@ h2.section-title {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 280px;
   aspect-ratio: 1 / 1;
   border-radius: 28px;
 }
@@ -380,11 +381,6 @@ footer {
 
   .collection-grid {
     grid-template-columns: 1fr;
-  }
-
-  /* Collection 이미지 정사각형 */
-  .object-image {
-    aspect-ratio: 1 / 1;
   }
 
   .footer-grid {
