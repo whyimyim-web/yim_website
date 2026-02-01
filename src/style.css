@@ -57,8 +57,9 @@ header {
 
 .header-inner {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
+  gap: 24px;
   height: 64px;
 }
 
@@ -358,6 +359,14 @@ footer {
     padding: 0 24px;
   }
 
+  /* 모바일 네비게이션 스크롤 */
+  nav {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-right: 16px;
+    -webkit-overflow-scrolling: touch;
+  }
+
   .hero-grid,
   .concept-grid,
   .atelier-grid {
@@ -367,6 +376,16 @@ footer {
 
   .collection-grid {
     grid-template-columns: 1fr;
+  }
+
+  /* Collection 이미지 정사각형 */
+  .object-image {
+    aspect-ratio: 1 / 1;
+  }
+
+  /* Atelier 사진 간격 축소 */
+  .atelier-gallery {
+    gap: 20px;
   }
 
   .footer-grid {
