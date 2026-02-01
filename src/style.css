@@ -49,6 +49,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
+  overflow-x: hidden;
   background: rgba(242,242,240,0.95);
   backdrop-filter: blur(6px);
   border-bottom: 1px solid var(--line);
@@ -75,6 +76,7 @@ nav {
   font-size: 11px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
+  margin-left: auto;
 }
 
 nav a:hover {
