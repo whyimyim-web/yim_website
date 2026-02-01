@@ -2,21 +2,38 @@
   "products": [
     {
       "id": 1,
-      "name": "Object 01",
+      "name": "[휘] 종지",
       "badge": "Limited",
-      "price": "₩120,000"
+      "price": "₩20,000",
+      "image": "flower_plate_01.jpg"
     },
     {
       "id": 2,
-      "name": "Object 02",
+      "name": "[휘] 반개화 굽잔",
       "badge": "Limited",
-      "price": "₩120,000"
+      "price": "₩30,000",
+      "image": "flower_plate_02.jpg"
     },
     {
       "id": 3,
-      "name": "Object 03",
+      "name": "[휘] 개화 굽잔",
       "badge": "Limited",
-      "price": "₩120,000"
+      "price": "₩30,000",
+      "image": "flower_plate_03.jpg"
+    },
+    {
+      "id": 4,
+      "name": "토끼",
+      "badge": "Limited",
+      "price": "₩30,000",
+      "image": "flower_plate_04.jpg"
+    },
+    {
+      "id": 5,
+      "name": "날개 괄사",
+      "badge": "Limited",
+      "price": "₩30,000",
+      "image": "flower_plate_05.jpg"
     }
   ]
 }

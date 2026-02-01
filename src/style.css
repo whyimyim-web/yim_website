@@ -63,9 +63,9 @@ header {
 }
 
 .logo {
-  font-size: 12px;
-  letter-spacing: 0.35em;
-  text-transform: uppercase;
+  height: 35px;
+  width: auto;
+  object-fit: contain;
 }
 
 nav {
@@ -147,7 +147,10 @@ nav a:hover {
 }
 
 .hero-visual {
-  background: var(--wood);
+  background-color: var(--wood);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   border-radius: 32px;
   height: 520px;
   display: flex;
@@ -198,7 +201,10 @@ h2.section-title {
 }
 
 .object-image {
-  background: var(--wood);
+  background-color: var(--wood);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 320px;
   border-radius: 28px;
   transition: transform 0.6s ease;
@@ -261,7 +267,10 @@ h2.section-title {
 }
 
 .concept-visual {
-  background: var(--wood);
+  background-color: var(--wood);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   border-radius: 32px;
   height: 460px;
 }
@@ -286,7 +295,10 @@ h2.section-title {
 }
 
 .atelier-img {
-  background: var(--wood);
+  background-color: var(--wood);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 280px;
   border-radius: 28px;
 }
