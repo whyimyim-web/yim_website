@@ -292,9 +292,7 @@ h2.section-title {
 }
 
 .atelier-gallery {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 40px;
+  width: 100%;
 }
 
 .atelier-img {
@@ -368,6 +366,9 @@ footer {
     white-space: nowrap;
     padding-right: 16px;
     -webkit-overflow-scrolling: touch;
+    max-width: 100%;
+    flex: 1;
+    min-width: 0;
   }
 
   .hero-grid,
@@ -384,11 +385,6 @@ footer {
   /* Collection 이미지 정사각형 */
   .object-image {
     aspect-ratio: 1 / 1;
-  }
-
-  /* Atelier 사진 간격 축소 */
-  .atelier-gallery {
-    gap: 20px;
   }
 
   .footer-grid {
