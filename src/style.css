@@ -17,6 +17,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -25,6 +26,7 @@ body {
   color: var(--text);
   line-height: 1.6;
   letter-spacing: -0.01em;
+  overflow-x: hidden;
 }
 
 a {
@@ -60,7 +62,7 @@ header {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 80px;
+  gap: 60px;
   height: 64px;
 }
 
@@ -361,7 +363,7 @@ footer {
     padding: 0 24px;
   }
 
-  /* 모바일 네비게이션 스크롤 */
+  /* 모바일 네비게이션 스크롤 (스크롤바 숨김) */
   nav {
     overflow-x: auto;
     white-space: nowrap;
@@ -370,6 +372,12 @@ footer {
     max-width: 100%;
     flex: 1;
     min-width: 0;
+    scrollbar-width: none; /* Firefox */
+  }
+
+  /* Chrome, Safari, Edge - 스크롤바 숨기기 */
+  nav::-webkit-scrollbar {
+    display: none;
   }
 
   .hero-grid,
