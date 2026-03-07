@@ -5,7 +5,7 @@
       <p>Collaboration, commissions, and partnerships</p>
       <div class="contact-buttons">
         <a href="mailto:contact@yim.com" class="btn btn-primary">Send Email</a>
-        <a href="#" class="btn btn-outline">Instagram</a>
+        <a href="https://www.instagram.com/why_im_yim/" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Instagram</a>
       </div>
     </div>
   </section>
