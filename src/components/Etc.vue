@@ -3,7 +3,7 @@
     <div class="container">
       <div class="collection-header">
         <h2 class="section-title libertine-title">ETC</h2>
-        <span>Edition 01</span>
+        <span>Edition 02</span>
       </div>
 
       <swiper
