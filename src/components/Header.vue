@@ -3,7 +3,8 @@
     <div class="container header-inner">
       <img class="logo" :src="`${basePath}assets/logo/logo.png`" alt="Yi'm logo">
       <nav>
-        <a href="#collection">Collection</a>
+        <a href="#hwi">HWI</a>
+        <a href="#etc">ETC</a>
         <a href="#concept">Concept</a>
         <a href="#atelier">Atelier</a>
         <a href="#contact">Contact</a>

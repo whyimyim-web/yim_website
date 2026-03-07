@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
 
+@font-face {
+  font-family: 'LinLibertine';
+  src: url('/assets/fonts/linux_libertine/LinLibertine_R.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   --bg: #F2F2F0;
   --bg-soft: #F7F7F5;
@@ -230,10 +237,9 @@ h2.section-title {
   font-weight: 300;
 }
 
-.badge {
+.size {
   font-size: 10px;
   letter-spacing: 0.2em;
-  text-transform: uppercase;
   color: var(--point);
 }
 

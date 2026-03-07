@@ -1,0 +1,18 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "토끼",
+      "size": "Limited",
+      "price": "₩30,000",
+      "image": "flower_plate_04.jpg"
+    },
+    {
+      "id": 2,
+      "name": "날개 괄사",
+      "size": "Limited",
+      "price": "₩30,000",
+      "image": "flower_plate_05.jpg"
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 <template>
-  <section id="collection">
+  <section id="hwi">
     <div class="container">
       <div class="collection-header">
-        <h2 class="section-title">Collection</h2>
+        <h2 class="section-title libertine-title">HWI</h2>
         <span>Edition 01</span>
       </div>
 
@@ -18,7 +18,7 @@
           <div class="object-image" :style="{ backgroundImage: getImagePath(product.image) }"></div>
           <div class="object-meta">
             <h3>{{ product.name }}</h3>
-            <span v-if="product.badge" class="badge">{{ product.badge }}</span>
+            <span v-if="product.size" class="size">{{ product.size }}</span>
           </div>
           <div class="price">{{ product.price }}</div>
           <a href="#" class="detail-link">View details →</a>
@@ -38,10 +38,8 @@ import 'swiper/css/navigation'
 const products = ref([])
 const basePath = import.meta.env.BASE_URL
 
-// Swiper 모듈 등록
 const modules = [Navigation]
 
-// 반응형 breakpoint 설정
 const breakpoints = {
   320: {
     slidesPerView: 1,
@@ -68,12 +66,11 @@ const getImagePath = computed(() => {
 
 onMounted(async () => {
   try {
-    const basePath = import.meta.env.BASE_URL
-    const res = await fetch(`${basePath}data/products.json`)
+    const res = await fetch(`${basePath}data/hwi_products.json`)
     const data = await res.json()
     products.value = data.products
   } catch (error) {
-    console.error('Failed to load products:', error)
+    console.error('Failed to load hwi products:', error)
   }
 })
 </script>
@@ -87,7 +84,6 @@ onMounted(async () => {
   aspect-ratio: 1 / 1;
 }
 
-/* Swiper Navigation (이전/다음 버튼) 스타일 */
 :deep(.swiper-button-next),
 :deep(.swiper-button-prev) {
   color: white;
@@ -105,5 +101,9 @@ onMounted(async () => {
 :deep(.swiper-button-next:hover),
 :deep(.swiper-button-prev:hover) {
   color: white;
+}
+
+.libertine-title {
+  font-family: 'LinLibertine', serif;
 }
 </style>

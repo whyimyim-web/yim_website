@@ -1,7 +1,8 @@
 <template>
   <Header />
   <Hero />
-  <Collection />
+  <Hwi />
+  <Etc />
   <Concept />
   <Atelier />
   <Contact />
@@ -11,7 +12,8 @@
 <script setup>
 import Header from './components/Header.vue'
 import Hero from './components/Hero.vue'
-import Collection from './components/Collection.vue'
+import Hwi from './components/Hwi.vue'
+import Etc from './components/Etc.vue'
 import Concept from './components/Concept.vue'
 import Atelier from './components/Atelier.vue'
 import Contact from './components/Contact.vue'

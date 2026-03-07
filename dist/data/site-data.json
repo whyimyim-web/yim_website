@@ -1,0 +1,16 @@
+{
+  "hero": {
+    "images": ["main.jpg"]
+  },
+  "concept": {
+    "images": ["concept.jpg"]
+  },
+  "atelier": {
+    "images": [
+      "flower_plate_01.jpg",
+      "flower_plate_02.jpg",
+      "flower_plate_03.jpg",
+      "flower_plate_04.jpg"
+    ]
+  }
+}
