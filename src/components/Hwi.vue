@@ -66,7 +66,7 @@ const getImagePath = computed(() => {
 
 onMounted(async () => {
   try {
-    const res = await fetch(`${basePath}data/hwi_products.json`)
+    const res = await fetch(`${basePath}data/hwi_products.json?v=${import.meta.env.VITE_BUILD_TIME}`)
     const data = await res.json()
     products.value = data.products
   } catch (error) {

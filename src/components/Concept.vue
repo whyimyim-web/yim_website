@@ -28,7 +28,7 @@ const concept = ref({
 onMounted(async () => {
   try {
     const basePath = import.meta.env.BASE_URL
-    const res = await fetch(`${basePath}data/site-data.json`)
+    const res = await fetch(`${basePath}data/site-data.json?v=${import.meta.env.VITE_BUILD_TIME}`)
     const data = await res.json()
     concept.value = data.concept
   } catch (error) {

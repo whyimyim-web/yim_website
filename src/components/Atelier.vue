@@ -26,7 +26,7 @@ const atelier = ref({
 onMounted(async () => {
   try {
     const basePath = import.meta.env.BASE_URL
-    const res = await fetch(`${basePath}data/site-data.json`)
+    const res = await fetch(`${basePath}data/site-data.json?v=${import.meta.env.VITE_BUILD_TIME}`)
     const data = await res.json()
     atelier.value = data.atelier
   } catch (error) {
