@@ -3,14 +3,14 @@
     {
       "id": 1,
       "name": "토끼",
-      "size": "50 x 80",
+      "size": "50 x 80 mm",
       "price": "₩30,000",
       "image": "animal_rabbit.jpg"
     },
     {
       "id": 2,
       "name": "날개 괄사",
-      "size": "65 x 120",
+      "size": "65 x 120 mm",
       "price": "₩40,000",
       "image": "greek_wing_01.jpg"
     }

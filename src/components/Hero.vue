@@ -9,7 +9,7 @@
           절제된 조형과 물성의 균형 속에서 오브제는 하나의 태도가 됩니다.
         </p>
         <div class="hero-buttons">
-          <a href="#collection" class="btn btn-primary">View Objects</a>
+          <a href="#hwi" class="btn btn-primary">View Objects</a>
           <a href="#concept" class="btn btn-outline">Philosophy</a>
         </div>
       </div>
