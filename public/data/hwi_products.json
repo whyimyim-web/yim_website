@@ -5,21 +5,28 @@
       "name": "[휘] 종지",
       "size": "90 x 20 mm",
       "price": "₩20,000",
-      "image": "flower_plate_01.jpg"
+      "image": "hwi_plate_01.jpg"
     },
     {
       "id": 2,
       "name": "[휘] 반개화 굽잔",
-      "size": "Limited",
-      "price": "₩30,000",
-      "image": "flower_plate_02.jpg"
+      "size": "65 x 69 mm",
+      "price": "₩35,000",
+      "image": "hwi_halfbloom.jpg"
     },
     {
       "id": 3,
       "name": "[휘] 개화 굽잔",
-      "size": "Limited",
+      "size": "65 x 69 mm",
+      "price": "₩35,000",
+      "image": "hwi_fullbloom.jpg"
+    },
+    {
+      "id": 4,
+      "name": "[휘] 수저받침",
+      "size": "60 x 50 mm",
       "price": "₩30,000",
-      "image": "flower_plate_03.jpg"
+      "image": "hwi_petal_01.jpg"
     }
   ]
 }
